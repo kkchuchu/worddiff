@@ -1,0 +1,2 @@
+#!/bin/bash
+unoconv --stdout -f html $1 | pandoc -t markdown -f html
